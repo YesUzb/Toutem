@@ -1,0 +1,47 @@
+.about-cosmetics_inner {
+    margin: 0 0 200px 0;
+    padding: 0;
+}
+
+.about-cosmetics_nav {
+    display: flex;
+
+    li {
+        border: 1px solid #F9FAFB;
+        background-color: #F9FAFB;
+        border-radius: 0px 20px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+        margin: 0;
+        padding: 67px 90px;
+        list-style: none;
+
+        p {
+            margin: 20px 0 0 0;
+            padding: 0;
+            color: #5FD788;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: $desktop) {
+    .about-cosmetics_nav {
+        flex-direction: column;
+        
+        li {
+            margin: 0 0 45px 250px;
+            padding: 65px 80px;
+            width: 273px;
+            height: 273px;
+        }
+    }
+}
+
+#diffusers {
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    p {
+        color: #FFFFFF;
+    }
+}

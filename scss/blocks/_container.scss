@@ -1,0 +1,9 @@
+.container {
+    max-width: $desktop;
+    padding: 0 100px;
+    margin: 0 auto;
+
+    @media (max-width: $desktop) {
+        max-width: $desktop-l;
+    }
+}

@@ -1,0 +1,37 @@
+.text-img_inner {
+    margin: 100px 0 100px 0;
+    padding: 0;
+    display: flex;
+}
+
+.text-img_content {
+    margin: 0;
+    padding: 70px 170px 100px 100px;
+    background-color: #5FD788;
+    content: "";
+    background-image: url(./../../img/spot.svg);
+    background-repeat: no-repeat;
+
+    h2 {
+        width: 520px;
+        height: 230px;
+        font-size: 50px;
+        color: #FFFFFF;
+        line-height: 120%;
+    }
+
+    a {
+        margin: 0;
+        padding: 12px 80px;
+        text-decoration: none;
+        color: #1F2937;
+        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+}
+
+.text-img_img {
+    width: 648px;
+    height: 515px;
+}

@@ -1,0 +1,723 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 100px;
+  margin: 0 auto;
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.main-header_inner {
+  display: flex;
+  align-items: center;
+}
+
+.main-header_nav ul {
+  margin: 0 400px 0 400px;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.main-header_nav ul li:not(:last-child) {
+  margin-right: 10px;
+}
+.main-header_nav ul li a {
+  color: #1F2937;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+@media (max-width: 1440px) {
+  .main-header_nav ul {
+    margin: 0 200px 0 200px;
+  }
+}
+.main-header_img-1 {
+  content: "";
+  background-image: url(./../../img/header-img_2.svg);
+  margin: 0 10px 3px 0;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.main-header_img-2 {
+  content: "";
+  background-image: url(./../../img/header-img_1.svg);
+  margin: 0;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.hero-section_inner {
+  display: flex;
+}
+
+.hero-section_text h2 {
+  margin: 270px 0 40px 0;
+  padding: 0;
+  width: 410px;
+  height: 160px;
+  color: #5FD788;
+  font-size: 95px;
+  line-height: 90px;
+}
+.hero-section_text p {
+  margin: 0;
+  padding: 0;
+  width: 340px;
+  height: 60px;
+  color: #9CA3AF;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.hero-section_img {
+  content: "";
+  background-image: url(./../../img/hero-backgraundimg.svg);
+  background-size: 800px 720px;
+  background-repeat: no-repeat;
+}
+.hero-section_img img {
+  width: 770px;
+  height: 520px;
+  margin: 170px 0 260px 0;
+  padding: 0;
+}
+
+@media (max-width: 1440px) {
+  .hero-section_img {
+    margin-bottom: 10px;
+    margin: 0 0 0 120px;
+    padding: 0;
+    background-size: 270px 720px;
+    background-repeat: no-repeat;
+  }
+  .hero-section_img img {
+    width: 290px;
+    height: 190px;
+    margin: 260px 0 220px 0;
+    padding: 0;
+  }
+}
+.about-cosmetics_inner {
+  margin: 0 0 200px 0;
+  padding: 0;
+}
+
+.about-cosmetics_nav {
+  display: flex;
+}
+.about-cosmetics_nav li {
+  border: 1px solid #F9FAFB;
+  background-color: #F9FAFB;
+  border-radius: 0px 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  margin: 0;
+  padding: 67px 90px;
+  list-style: none;
+}
+.about-cosmetics_nav li p {
+  margin: 20px 0 0 0;
+  padding: 0;
+  color: #5FD788;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .about-cosmetics_nav {
+    flex-direction: column;
+  }
+  .about-cosmetics_nav li {
+    margin: 0 0 45px 250px;
+    padding: 65px 80px;
+    width: 273px;
+    height: 273px;
+  }
+}
+#diffusers {
+  border: 1px solid #5FD788;
+  background-color: #5FD788;
+}
+#diffusers p {
+  color: #FFFFFF;
+}
+
+.toutem-aromatherapy_inner {
+  margin: 0 0 100px 0;
+  padding: 0;
+  display: flex;
+}
+
+.toutem-aromatherapy_img {
+  margin: 0;
+  padding: 0;
+  content: "";
+  background-image: url(./../../img/hero-backgraundimg_2.svg);
+  background-repeat: no-repeat;
+  background-size: 400px 640px;
+}
+.toutem-aromatherapy_img img {
+  margin: 55px;
+}
+
+@media (max-width: 1440px) {
+  .toutem-aromatherapy_img {
+    background-size: 220px 640px;
+    background-repeat: no-repeat;
+  }
+  .toutem-aromatherapy_img img {
+    width: 400px;
+    height: 355px;
+    margin: 120px 0 110px 0;
+    padding: 0;
+  }
+  .toutem-aromatherapy_text h2 {
+    width: 700px;
+    height: 88px;
+    margin: 150px 0 20px 0;
+    padding: 0;
+    color: #5FD788;
+    font-size: 40px;
+    text-align: right;
+  }
+  .toutem-aromatherapy_text p {
+    margin: 0 0 30px 320px;
+    padding: 0;
+    width: 374px;
+    height: 62px;
+    color: #9CA3AF;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: right;
+  }
+  .toutem-aromatherapy_text a {
+    margin: 0 0 0 490px;
+    padding: 12px 30px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+}
+@media (min-width: 1440px) {
+  .toutem-aromatherapy_text h2 {
+    margin: 200px 0 30px 0;
+    padding: 0;
+    color: #5FD788;
+    font-size: 50px;
+    text-align: right;
+  }
+  .toutem-aromatherapy_text p {
+    margin: 0 0 25px 180px;
+    padding: 0;
+    width: 345px;
+    height: 60px;
+    color: #9CA3AF;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: right;
+  }
+  .toutem-aromatherapy_text a {
+    margin: 0 0 0 320px;
+    padding: 12px 30px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+}
+/*.toutem-aromatherapy_text {
+    h2 {
+        margin: 200px 0 30px 0;
+        padding: 0;
+        color: #5FD788;
+        font-size: 50px;
+        text-align: right;
+    }
+
+    p {
+        margin: 0 0 25px 180px;
+        padding: 0;
+        width: 345px;
+        height: 60px;
+        color: #9CA3AF;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: right;
+    }
+
+    a {
+        margin: 0 0 0 320px;
+        padding: 12px 30px;
+        border: 1px solid #5FD788;
+        background-color: #5FD788;
+        color: #FFFFFF;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+}*/
+@media (min-width: 1440px) {
+  .bestsellers_inner {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    content: "";
+    background-image: url(./../../img/Bestsellers-backgraundimg.svg);
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    background-position: -200px 0;
+  }
+  .bestsellers-shop {
+    margin: 0 127px 0 120px;
+  }
+  .bestsellers-shop h2 {
+    margin: 0;
+    padding: 200px 0 0 0;
+    color: #5FD788;
+    font-size: 50px;
+  }
+  .bestsellers-shop button {
+    margin: 20px 0 280px 0;
+    padding: 12px 80px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .bestsellers-card {
+    display: flex;
+  }
+  .bestsellers-card img {
+    content: absolute;
+  }
+  .bestsellers-card_content {
+    display: flex;
+  }
+  .bestsellers-card_content h3 {
+    margin: 17px 8px 0 15px;
+    padding: 0;
+    color: #1F2937;
+    font-size: 20px;
+  }
+  .bestsellers-card_content a {
+    margin: 0;
+    padding: 2px 6px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .bestsellers-card_text {
+    display: flex;
+  }
+  .bestsellers-card_text p {
+    margin: 0 60px 10px 15px;
+    padding: 0;
+    width: 235px;
+    height: 40px;
+    color: #6B7280;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .bestsellers-card_text img {
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  }
+  .bestsellers-card_menu {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.3019607843);
+    background-color: rgba(255, 255, 255, 0.3019607843);
+  }
+  .bestsellers-card_spot {
+    margin: 60px 0 0 830px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  .bestsellers-card_spot li button.active {
+    width: 0px;
+    height: 15px;
+    margin: 0 2.5px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    border-radius: 50%;
+  }
+  .bestsellers-card_spot li button.button {
+    width: 0px;
+    height: 15px;
+    margin: 0 2.5px;
+    border: 1px solid #9CA3AF;
+    background-color: #9CA3AF;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 1440px) {
+  .bestsellers_inner {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    content: "";
+    background-image: url(./../../img/Bestsellers-backgraundimg.svg);
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    background-position: -200px 0;
+  }
+  .bestsellers-shop {
+    margin: 0 127px 0 120px;
+  }
+  .bestsellers-shop h2 {
+    text-align: center;
+    margin: 0;
+    padding: 200px 0 0 0;
+    color: #5FD788;
+    font-size: 50px;
+  }
+  .bestsellers-shop button {
+    margin: 20px 0 280px 260px;
+    padding: 12px 80px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    color: #FFFFFF;
+    border-radius: 8px;
+  }
+  .bestsellers-card img {
+    content: absolute;
+  }
+  .bestsellers-card_1 {
+    margin: 0 0 80px 300px;
+  }
+  .bestsellers-card_2 {
+    margin: 0 0 0 300px;
+  }
+  .bestsellers-card_content {
+    display: flex;
+  }
+  .bestsellers-card_content h3 {
+    margin: 17px 8px 0 15px;
+    padding: 0;
+    color: #1F2937;
+    font-size: 20px;
+  }
+  .bestsellers-card_content a {
+    margin: 0;
+    padding: 2px 6px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    color: #FFFFFF;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .bestsellers-card_text {
+    display: flex;
+  }
+  .bestsellers-card_text p {
+    margin: 0 60px 10px 15px;
+    padding: 0;
+    width: 235px;
+    height: 40px;
+    color: #6B7280;
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .bestsellers-card_text img {
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+  }
+  .bestsellers-card_menu {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.3019607843);
+    background-color: rgba(255, 255, 255, 0.3019607843);
+  }
+  .bestsellers-card_spot {
+    margin: 25px 0 0 450px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  .bestsellers-card_spot li button.active {
+    width: 0px;
+    height: 15px;
+    margin: 0 2.5px;
+    border: 1px solid #5FD788;
+    background-color: #5FD788;
+    border-radius: 50%;
+  }
+  .bestsellers-card_spot li button.button {
+    width: 0px;
+    height: 15px;
+    margin: 0 2.5px;
+    border: 1px solid #9CA3AF;
+    background-color: #9CA3AF;
+    border-radius: 50%;
+  }
+}
+.text-img_inner {
+  margin: 100px 0 100px 0;
+  padding: 0;
+  display: flex;
+}
+
+.text-img_content {
+  margin: 0;
+  padding: 70px 170px 100px 100px;
+  background-color: #5FD788;
+  content: "";
+  background-image: url(./../../img/spot.svg);
+  background-repeat: no-repeat;
+}
+.text-img_content h2 {
+  width: 520px;
+  height: 230px;
+  font-size: 50px;
+  color: #FFFFFF;
+  line-height: 120%;
+}
+.text-img_content a {
+  margin: 0;
+  padding: 12px 80px;
+  text-decoration: none;
+  color: #1F2937;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.text-img_img {
+  width: 648px;
+  height: 515px;
+}
+
+.trends_inner {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  content: "";
+  background-image: url(./../../img/Trends-backgrundimg.svg);
+  background-repeat: no-repeat;
+  background-size: 800px 600px;
+  background-position: -200px 0;
+}
+
+.trends-shop {
+  margin: 0 127px 0 120px;
+}
+.trends-shop h2 {
+  margin: 0;
+  padding: 200px 0 0 0;
+  color: #5FD788;
+  font-size: 50px;
+}
+.trends-shop button {
+  margin: 20px 0 280px 0;
+  padding: 12px 80px;
+  border: 1px solid #5FD788;
+  background-color: #5FD788;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.trends-card {
+  display: flex;
+}
+.trends-card img {
+  content: absolute;
+}
+
+.trends-card_content {
+  display: flex;
+}
+.trends-card_content h3 {
+  margin: 17px 8px 0 15px;
+  padding: 0;
+  color: #1F2937;
+  font-size: 20px;
+}
+.trends-card_content a {
+  margin: 0;
+  padding: 2px 6px;
+  border: 1px solid #5FD788;
+  background-color: #5FD788;
+  color: #FFFFFF;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.trends-card_text {
+  display: flex;
+}
+.trends-card_text p {
+  margin: 0 60px 10px 15px;
+  padding: 0;
+  width: 235px;
+  height: 40px;
+  color: #6B7280;
+  font-size: 14px;
+  line-height: 140%;
+}
+.trends-card_text img {
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+
+.trends-card_menu {
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3019607843);
+  background-color: rgba(255, 255, 255, 0.3019607843);
+}
+
+.trends-card_spot {
+  margin: 60px 0 0 830px;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.trends-card_spot li button.active {
+  width: 0px;
+  height: 15px;
+  margin: 0 2.5px;
+  border: 1px solid #5FD788;
+  background-color: #5FD788;
+  border-radius: 50%;
+}
+
+.trends-card_spot li button.button {
+  width: 0px;
+  height: 15px;
+  margin: 0 2.5px;
+  border: 1px solid #9CA3AF;
+  background-color: #9CA3AF;
+  border-radius: 50%;
+}
+
+.blog-section_inner {
+  margin: 100px 0 70px 0;
+  padding: 0;
+}
+.blog-section_inner h2 {
+  margin: 0 0 30px 0;
+  padding: 0;
+  color: #5FD788;
+  font-size: 50px;
+  text-align: center;
+}
+
+.blog-section_blog {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.blog-section_blog li {
+  margin: 0 20px;
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+.blog-section_blog img {
+  margin: 0 0 0 1px;
+  padding: 0;
+  /* width: 400px;
+  height: 200px; */
+  border-radius: 8px 8px 0 0;
+}
+
+.blog-section_text {
+  margin: 0;
+  padding: 0 23px 0 23px;
+}
+.blog-section_text h3 {
+  margin: 22px 0 35px 0;
+  padding: 0;
+  color: #5FD788;
+  font-size: 20px;
+  line-height: 140%;
+}
+.blog-section_text hr {
+  margin: 0 22px 0 22px;
+  padding: 0;
+  color: #F3F4F6;
+}
+.blog-section_text p {
+  margin: 20px 0;
+  padding: 0;
+  color: #4B5563;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.footer-section_inner {
+  margin: 0 0 100px 0;
+  padding: 0;
+  border: 0.5px solid #F3F4F6;
+  background-color: #F3F4F6;
+}
+.footer-section_inner p {
+  margin: 50px 0 30px 0;
+  padding: 0 550px;
+  color: #6B7280;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-section_logo {
+  margin: 20px 100px 0 100px;
+  padding: 0;
+}
+
+.footer-section_menu {
+  display: flex;
+}
+
+.footer-section_nav {
+  display: flex;
+  list-style: none;
+}
+.footer-section_nav li {
+  margin: 0 40px;
+  padding: 0;
+}
+.footer-section_nav li a {
+  margin: 0;
+  padding: 0;
+  color: #5FD788;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+.footer-section_nav li p {
+  margin: 0;
+  padding: 0px;
+  color: #9CA3AF;
+  font-size: 12px;
+  text-align: center;
+  line-height: 135%;
+}/*# sourceMappingURL=main.css.map */

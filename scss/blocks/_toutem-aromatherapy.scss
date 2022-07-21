@@ -1,0 +1,129 @@
+.toutem-aromatherapy_inner {
+    margin: 0 0 100px 0;
+    padding: 0;
+    display: flex;
+}
+
+.toutem-aromatherapy_img {
+    margin: 0;
+    padding: 0;
+    content: "";
+    background-image: url(./../../img/hero-backgraundimg_2.svg);
+    background-repeat: no-repeat;
+    background-size: 400px 640px;
+
+    img {
+        margin: 55px;
+    }
+}
+
+@media (max-width: $desktop) {
+    .toutem-aromatherapy_img {
+        background-size: 220px 640px;
+        background-repeat: no-repeat;
+
+        img {
+            width: 400px;
+            height: 355px;
+            margin: 120px 0 110px 0;
+            padding: 0;
+        }
+    }
+
+    .toutem-aromatherapy_text {
+        h2 {
+            width: 700px;
+            height: 88px;
+            margin: 150px 0 20px 0;
+            padding: 0;
+            color: #5FD788;
+            font-size: 40px;
+            text-align: right;
+        }
+
+        p {
+            margin: 0 0 30px 320px;
+            padding: 0;
+            width: 374px;
+            height: 62px;
+            color: #9CA3AF;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: right;
+        }
+
+        a {
+            margin: 0 0 0 490px;
+            padding: 12px 30px;
+            border: 1px solid #5FD788;
+            background-color: #5FD788;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+    }
+}
+
+@media (min-width: $desktop) {
+    .toutem-aromatherapy_text {
+        h2 {
+            margin: 200px 0 30px 0;
+            padding: 0;
+            color: #5FD788;
+            font-size: 50px;
+            text-align: right;
+        }
+    
+        p {
+            margin: 0 0 25px 180px;
+            padding: 0;
+            width: 345px;
+            height: 60px;
+            color: #9CA3AF;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: right;
+        }
+    
+        a {
+            margin: 0 0 0 320px;
+            padding: 12px 30px;
+            border: 1px solid #5FD788;
+            background-color: #5FD788;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+    }
+}
+
+/*.toutem-aromatherapy_text {
+    h2 {
+        margin: 200px 0 30px 0;
+        padding: 0;
+        color: #5FD788;
+        font-size: 50px;
+        text-align: right;
+    }
+
+    p {
+        margin: 0 0 25px 180px;
+        padding: 0;
+        width: 345px;
+        height: 60px;
+        color: #9CA3AF;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: right;
+    }
+
+    a {
+        margin: 0 0 0 320px;
+        padding: 12px 30px;
+        border: 1px solid #5FD788;
+        background-color: #5FD788;
+        color: #FFFFFF;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+}*/
